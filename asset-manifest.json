@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.js": "/moraeston.github.io/static/js/main.83b9c7af.chunk.js",
+    "main.js.map": "/moraeston.github.io/static/js/main.83b9c7af.chunk.js.map",
+    "runtime-main.js": "/moraeston.github.io/static/js/runtime-main.fce4fd64.js",
+    "runtime-main.js.map": "/moraeston.github.io/static/js/runtime-main.fce4fd64.js.map",
+    "static/js/2.9579624e.chunk.js": "/moraeston.github.io/static/js/2.9579624e.chunk.js",
+    "static/js/2.9579624e.chunk.js.map": "/moraeston.github.io/static/js/2.9579624e.chunk.js.map",
+    "index.html": "/moraeston.github.io/index.html",
+    "static/js/2.9579624e.chunk.js.LICENSE.txt": "/moraeston.github.io/static/js/2.9579624e.chunk.js.LICENSE.txt",
+    "static/media/box.00138fec.svg": "/moraeston.github.io/static/media/box.00138fec.svg",
+    "static/media/desk.1d48d127.png": "/moraeston.github.io/static/media/desk.1d48d127.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.fce4fd64.js",
+    "static/js/2.9579624e.chunk.js",
+    "static/js/main.83b9c7af.chunk.js"
+  ]
+}
