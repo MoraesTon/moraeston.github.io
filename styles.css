@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;500;700;900&display=swap');
+
+body {
+    height: 90vh;
+    font-size: 1rem;
+    font-family: 'Roboto';
+    color: #3C5159;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+}
+
+header h1 {
+    color: #1D9BF0;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+}
+
+nav a {
+    text-decoration: none;
+    font-weight: 600;
+    color: #3C5159;
+    transition: opacity .5s;
+}
+
+nav a:hover {
+    opacity: .7;
+}
+
+nav a + a {
+    margin: 0 0 0 1rem;
+}
+
+main {
+    display: flex;
+    align-items: center;
+}
+
+#message {
+    width: 50%;
+}
+
+#message__head {
+    font-size: 1.5em;
+    font-weight: 200;
+}
+
+#message__text {
+    font-size: 4rem;
+}
+
+#message__text span {
+    color: #1D9BF0;
+}
+
+#image {
+    width: 50%;
+}
+
+#image img {
+    max-width: 100%;
+}
+
+.slideItem {
+    display: flex;
+    align-items: center;
+}
+
+.slideItem + .slideItem {
+    margin-left: 1rem;
+}
+
+.slideItem__image {
+    width: 2.5rem;
+    height: 2.5rem;
+    z-index: 1;
+
+}
+
+.slideItem__text {
+    margin: 0 0 0 .5rem;
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    border: #3C5159 solid 2px;
+    border-radius: .3rem;
+    padding: .6rem;
+    height: 3rem;
+}
