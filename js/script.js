@@ -53,9 +53,30 @@ ScrollReveal().reveal('.home-content p, .about-content', { origin: 'right' });
 // :::::::::::: Typed JS
 
 const typed = new Typed('.multiple-text', {
-    strings: ['Frontend Developer', 'Backend Developer', 'Web Designer'],
+    strings: ['Desenvolvedor Web', 'Técnico de redes', 'Serralheiro'],
     typeSpeed: 100,
     backSpeed: 100,
     backDelay: 1000,
     loop: true
 });
+
+
+/*Modal section*/
+
+const modal = document.querySelector(".modal");
+const trigger = document.querySelector(".trigger");
+const closeButton = document.querySelector(".close-button");
+
+function toggleModal() {
+    modal.classList.toggle("show-modal");
+}
+
+function windowOnClick(event) {
+    if (event.target === modal) {
+        toggleModal();
+    }
+}
+
+trigger.addEventListener("click", toggleModal);
+closeButton.addEventListener("click", toggleModal);
+window.addEventListener("click", windowOnClick);
